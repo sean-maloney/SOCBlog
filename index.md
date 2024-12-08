@@ -9,7 +9,7 @@ This project is my introduction to FPGA design using Verilog on Vivado. It start
 ## **Template VGA Design**
 ### **Project Set-Up**
 The starting point in this project was a template that generates VGA signals and displayed simple multi colored stripes. I set everything up in Vivado, Including simulation and synthesis, to understand how this design worked. Below is a screenshot of my project summary:
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/VGAPrjSum.png">
 
 This template helped me see how the VGA timing is used and handled and also how the color are displayed on the screen/
 
@@ -34,7 +34,7 @@ This pattern filled the screen with colorful vertical bars.
 ### **Simulation**
 The simulation process was key to my understanding of how the design works. I used Vivado's built in simulator to check the hsync and vsync, and color signals over time. The waveform output showed the exact timing of the sync pulses, this ensured the design was adhering to VGA's specifications.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/SimInit.png">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/SimInit.png">
 
 For the template design, the simulation had to verify the color regoins were mapped correctly to specific sections of the screen. The timing diagram shows the tranistions between multiple color zones, this confirms the counters were incrementing as they were specified to.
 
