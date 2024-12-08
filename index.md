@@ -14,7 +14,7 @@ I set up the project in Vivado, and I ensured all the design files were correctl
 
 Below is a screenshot of my project summary, showing the inital setup and design flow:
 
-<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/VGAPrjSum.png">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Project overview.png">
 
 This template helped me see how the VGA timing is used and handled and also how the color are displayed on the screen
 
@@ -44,12 +44,12 @@ The simulation process was key to my understanding of how the design works. I us
 
 For the template design, the simulation had to verify the color regoins were mapped correctly to specific sections of the screen. The timing diagram shows the tranistions between multiple color zones, this confirms the counters were incrementing as they were specified to.
 
-### **Synthesis**
-Synthesis was the next step, this is when we translate the Verilog code into a format that is compatiable with the FPGA hardware. The Vivado synthesis tool supplied me with detailed reports that included resource usage and timing estimates, and logic mappings.
+### **Synthesis & Implementation**
+The synthesis process for the initial template design translated the code into a netlist which could then be supplied onto the FPGA hardware. Vivado's synthesis tool provided me some detailed and informative insights into the design's resource usage, logic mappings and the timing estimates. These reports also confiremed that the template design had be utilized with minimal logic and memory which was well withing the capabilities of the Basys 3 board. This meant that it indicated the basic design that my teacher had provided was straightforward combinational logic with simple counters and was efficient and ready for the FPGA programming
 
 <img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/InitSynReport.png">
 
-The resource usage report showed that my design was well within the limitations of the BAsys 3 board, it also had minimal logic and memory utilization. This provided me the confidence that the template design could be implemented without issues.
+After synthesis, the implementation was the next step and it succesfully programmed the design onto the FPGA hardware. This invloved mapping the generated bitstream to the board. from there we can connect the FPGA to a VGA monitor. When succesfully connected the monitor begins to display colorful stripes as it was intended. This successfully demonstrated the design's functionality and how smooth the synchronization of the VGA timing signals is. The process shows the effectiveness of the modular design and its readiness for real world application.
 
 ### **Demonstration**
 Finally, I programmed the FPGA and connected it to a VGA monitor. The screen displayed colorful Stripes that were vertical. It was amazing to see some image actually displaying to a monitor.
