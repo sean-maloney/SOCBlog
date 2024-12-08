@@ -53,7 +53,8 @@ Finally, I programmed the FPGA and connected it to a VGA monitor. The screen dis
 ### **Code Adaptation**
 After understanding the templates, I decided to give it a go and try to display an irish flag. This involved adjusting the color regions in the `VGAColourStripes.v` module. 
 
-(insert photo here)
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish flag.jpg">
+
 
 This image isn't that complex but takes an understanding of how the image fits on the screen, It can obtained by expermenting with the code until you understand and start seeing a desireable image as a result.
 
@@ -76,6 +77,7 @@ Syntheizing the code I had modfied from the template show no major changes in th
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
 After programming the board, the Irish flag appeared on the VGA monitor, with the Three Vertical stripes of Green white and orange seperated by thinner black vertical stripes to make the picture more detailed. This was a great success and a satisfying moment as it showed my hard work payed off.
+
 
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
 
