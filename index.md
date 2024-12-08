@@ -34,7 +34,7 @@ This pattern filled the screen with colorful vertical bars.
 ### **Simulation**
 The simulation process was key to my understanding of how the design works. I used Vivado's built in simulator to check the hsync and vsync, and color signals over time. The waveform output showed the exact timing of the sync pulses, this ensured the design was adhering to VGA's specifications.
 
-
+<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/SimInit.png">
 
 For the template design, the simulation had to verify the color regoins were mapped correctly to specific sections of the screen. The timing diagram shows the tranistions between multiple color zones, this confirms the counters were incrementing as they were specified to.
 
