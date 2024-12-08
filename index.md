@@ -47,7 +47,7 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 ### **Demonstration**
 Finally, I programmed the FPGA and connected it to a VGA monitor. The screen displayed colorful Stripes that were vertical. It was amazing to see some image actually displaying to a monitor.
 
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/ColorStripes.JPG">
 
 ## **My VGA Design Edit**
 ### **Code Adaptation**
