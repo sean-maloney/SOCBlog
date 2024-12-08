@@ -58,16 +58,13 @@ After understanding the templates, I decided to give it a go and try to display 
 
 This image isn't that complex but takes an understanding of how the image fits on the screen, It can obtained by expermenting with the code until you understand and start seeing a desireable image as a result.
 
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
-
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 
 ### **Simulation**
 I simulated the Irish flag design to confirm the correct color assignments and transitions between the sections. The waveform that was produced by this showed that the hcount values aligned perfectly with the boundaries of each stripe on the Irish flag, the colors also matched what was expected (Grenn, White, and Orange)
 
-Simulation also helpes me debug an issue where the colors were overlapping due to incorrect boundary values. After adjusting the values within the `if` statments, the simulation output looked perfect.
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish simulation.png">
 
-(Insert simulating screenshot of Irish flag design)
+Simulation also helpes me debug an issue where the colors were overlapping due to incorrect boundary values. After adjusting the values within the `if` statments, the simulation output looked perfect.
 
 ### **Synthesis**
 Syntheizing the code I had modfied from the template show no major changes in the resource usage compared to that of the template design. The implementation step also passed without errors, and the design was ready to program onto the FPGA
