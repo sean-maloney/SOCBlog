@@ -69,7 +69,7 @@ This image isn't that complex but takes an understanding of how the image fits o
 ### **Simulation**
 I simulated the Irish flag design to confirm the correct color assignments and transitions between the sections. The waveform that was produced by this showed that the hcount values aligned perfectly with the boundaries of each stripe on the Irish flag, the colors also matched what was expected (Grenn, White, and Orange)
 
-<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish simulation.png">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/irish sim.png">
 
 Simulation also helpes me debug an issue where the colors were overlapping due to incorrect boundary values. After adjusting the values within the `if` statments, the simulation output looked perfect.
 
@@ -83,7 +83,7 @@ In addition to this, the synthesis also provided helpful insights into what opti
 ### **Demonstration**
 After programming the board, the Irish flag appeared on the VGA monitor, with the Three Vertical stripes of Green white and orange seperated by thinner black vertical stripes to make the picture more detailed. This was a great success and a satisfying moment as it showed my hard work payed off.
 
-<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish Flag.png">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish flag.png">
 
 ## **Failed Experiments**
 In my attempt to add more creativity and complexity into my code, I tried animatig the flag by shifting shifting the stripes horizontially. However, the timing logic did not work as I expected or hoped it would. I also attempted a slideshow feature that would use a `switch-case` statement to display different flags but I couldn't manage the state transitions.
