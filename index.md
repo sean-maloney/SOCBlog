@@ -94,23 +94,3 @@ These failed attempts helped me to learn about the handling of timing-sensitive 
 This project has been a great introduction to FPGA deisgn and Verilog. The templates were a great help and helped me understand and learn the basics, and when I modified the templates to display the Irish flag, that only deepend my understanding of VGA timing and color logic. Even though some of my experiments didn't go the way I planned them to go, they gave me ideas for my future projects.
 
 I'm excited to try and learn some more complex designs someday, or even try and learn some animation or interactive features to implement into my future projects
-
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
