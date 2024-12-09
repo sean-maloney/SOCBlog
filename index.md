@@ -83,7 +83,7 @@ In addition to this, the synthesis also provided helpful insights into what opti
 ### **Demonstration**
 After programming the board, the Irish flag appeared on the VGA monitor, with the Three Vertical stripes of Green white and orange seperated by thinner black vertical stripes to make the picture more detailed. This was a great success and a satisfying moment as it showed my hard work payed off.
 
-<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/Irish flag.jpg">
+<img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/irish sim.png">
 
 ## **Failed Experiments**
 In my attempt to add more creativity and complexity into my code, I tried animatig the flag by shifting shifting the stripes horizontially. However, the timing logic did not work as I expected or hoped it would. I also attempted a slideshow feature that would use a `switch-case` statement to display different flags but I couldn't manage the state transitions.
