@@ -35,7 +35,7 @@ For example part of the original code was assiging colors like this:
 `end`
 This logic was simple yet effective, splitting the screen into multiple vertical stripes. This really helped me understand the relationship between pixel co-ordinates and screen output.
 
-THe template has a modular structure while made it way easier to adapt and expand the code for my own design ideas.
+The template has a modular structure while made it way easier to adapt and expand the code for my own design ideas.
 
 ### **Simulation**
 The simulation process was key to my understanding of how the design works. I used Vivado's built in simulator to check the hsync and vsync, and color signals over time. The waveform output showed the exact timing of the sync pulses, this ensured the design was adhering to VGA's specifications.
@@ -45,7 +45,7 @@ The simulation process was key to my understanding of how the design works. I us
 For the template design, the simulation had to verify the color regoins were mapped correctly to specific sections of the screen. The timing diagram shows the tranistions between multiple color zones, this confirms the counters were incrementing as they were specified to.
 
 ### **Synthesis & Implementation**
-The synthesis process for the initial template design translated the code into a netlist which could then be supplied onto the FPGA hardware. Vivado's synthesis tool provided me some detailed and informative insights into the design's resource usage, logic mappings and the timing estimates. These reports also confiremed that the template design had be utilized with minimal logic and memory which was well withing the capabilities of the Basys 3 board. This meant that it indicated the basic design that my teacher had provided was straightforward combinational logic with simple counters and was efficient and ready for the FPGA programming
+The synthesis process for the initial template design translated the code into a netlist which could then be supplied onto the FPGA hardware. Vivado's synthesis tool provided me some detailed and informative insights into the design's resource usage, logic mappings and the timing estimates. These reports also confiremed that the template design had be utilized with minimal logic and memory which was well withing the capabilities of the Basys 3 board Artix 7. This meant that it indicated the basic design that my teacher had provided was straightforward combinational logic with simple counters and was efficient and ready for the FPGA programming
 
 <img src="https://raw.githubusercontent.com/sean-maloney/SOCBlog/main/docs/assets/images/InitSynReport.png">
 
